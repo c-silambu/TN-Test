@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0a0a0a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clock {
+  font-size: 80px;
+  color: #00ffea;
+  font-weight: bold;
+  letter-spacing: 5px;
+  background: #111;
+  padding: 20px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00eaff;
+}

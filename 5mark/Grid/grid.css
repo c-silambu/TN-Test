@@ -1,0 +1,30 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 150px);
+  gap: 12px;
+  width: 80%;
+  margin: 40px auto;
+}
+
+.box {
+  background: #3498db;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: white;
+  border-radius: 10px;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.box:hover {
+  background: #1abc9c;
+  transform: scale(1.05);
+}
+
+.middle {
+  grid-row: span 2;
+  background: #e67e22;
+}
